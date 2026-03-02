@@ -1,4 +1,4 @@
-FROM eclips-temurin:21-jdk-slim
+FROM eclips-temurin:21
 WORKDIR /app
 COPY target/*.jar aoo.jar
 LABEL authors="aslantynyshtyk"
